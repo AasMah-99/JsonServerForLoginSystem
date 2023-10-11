@@ -1,0 +1,74 @@
+{
+  "childrenData": [
+    {
+      "id": 1,
+      "userId": "child1",
+      "cardBalance": 8000
+    },
+    {
+      "id": 2,
+      "userId": "child2",
+      "cardBalance": 15000
+    },
+    {
+      "id": 3,
+      "userId": "child3",
+      "cardBalance": 25000
+    },
+    {
+      "userId": "child4",
+      "cardBalance": 20000,
+      "id": 4
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "admin",
+      "password": "1234",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "email": "volunteer",
+      "password": "1234",
+      "role": "volunteer"
+    },
+    {
+      "email": "volunteer2",
+      "password": "1234",
+      "role": "volunteer",
+      "id": 3
+    }
+  ],
+  "transationHistory": [
+    {
+      "id": 1,
+      "loginUserEmail": "admin",
+      "childId": "child2",
+      "debitAmount": "1000",
+      "afterTranBalance": 14000
+    },
+    {
+      "loginUserEmail": "admin",
+      "childId": "child2",
+      "debitAmount": "1000",
+      "afterTranBalance": 15000,
+      "id": 2
+    },
+    {
+      "loginUserEmail": "admin",
+      "childId": "child2",
+      "debitAmount": "+ 1000",
+      "afterTranBalance": 16000,
+      "id": 3
+    },
+    {
+      "loginUserEmail": "admin",
+      "childId": "child2",
+      "debitAmount": "-1000",
+      "afterTranBalance": 15000,
+      "id": 4
+    }
+  ]
+}
